@@ -1,2 +1,2 @@
-# vehicle-management
+# rental-management
 Rental management 
