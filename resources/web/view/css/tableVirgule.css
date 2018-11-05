@@ -1,0 +1,32 @@
+.text_filter_input {
+    display: none;
+    height: 20px;
+    background-color: #777;
+}
+
+.remove_filter {
+    color: #FFFFFF;
+}
+
+.glyphicon-remove {
+    margin-left: 5px;
+}
+
+.filter-input-text {
+    color: #777;
+}
+
+.order-by-desc {
+    cursor: pointer;
+}
+
+.order-by-asc {
+    cursor: pointer;
+}
+
+
+
+
+
+
+

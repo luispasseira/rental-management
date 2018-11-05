@@ -1,0 +1,829 @@
+@import '../../resources/web/dist/css/fonts.css';
+
+/* Remember to define FOCUS styles! */
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus, button:focus {
+	outline: none;
+	outline-offset: 0;
+}
+
+html, body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	background: #f0f3f7;
+	/*height:100%;*/
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+	margin-top: 15px;
+	margin-bottom:20px;
+}
+
+p {
+	font-size:12px
+}
+
+.m-l-15 {
+	margin-left:15px;
+}
+
+.no-border {
+	border: none;
+}
+
+.pad-z {
+	padding:0;
+}
+
+.pad-l-z {
+	padding-left:0;
+}
+
+.pad-r-z {
+	padding-right:0;
+}
+
+
+
+/* --- BUTTONS --- */
+.btn-clean:hover, .btn-clean:focus,
+a .glyphicon-refresh:hover, a .glyphicon-refresh:focus,
+.pagination-buttons a i:hover, .pagination-buttons a i:focus  {
+	color: #fdc23e;
+	text-shadow: 0px 0px 1px #ccc;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #fdc23e;
+	border-color: #fdc23e;
+}
+.btn-primary:hover {
+	background: #f3c455;
+	border-color: #f3c455;
+}
+.btn-primary.focus, .btn-primary:focus,
+.btn-primary.active.focus, .btn-primary.active:focus,
+.btn-primary.active:hover, .btn-primary:active.focus,
+.btn-primary:active:focus, .btn-primary:active:hover,
+.open>.dropdown-toggle.btn-primary.focus,
+.open>.dropdown-toggle.btn-primary:focus,
+.open>.dropdown-toggle.btn-primary:hover {
+	background: #e6ad29;
+	border-color: #e6ad29;
+}
+
+.btn-clean {
+	padding: 0;
+	margin:0;
+	background: none;
+	border:none;
+}
+a.btn-clean {
+	color:#333;
+}
+
+.navbar {
+	/* height:60px;*/
+}
+.navbar .container-fluid {
+	padding-left:0;
+}
+.navbar-inverse {
+	background-color: #fff;
+	border:none;
+	z-index: 999999;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	border:none;
+}
+.navbar-header {
+	display: inline-block;
+	width:193px;
+	text-align: center;
+	/*background: #fdc23e;*/
+}
+.navbar-brand {
+	display: inline-block;
+	width: 100%;
+	padding: 10px;
+	/*height:60px;
+    padding:4.5px 15px;*/
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+	margin-left: 0;
+}
+.navbar-brand>img {
+	display: inline-block;
+	/* height: 50px;*/
+	height:35px;
+	float: none;
+}
+
+.navbar-inverse .navbar-right {
+	margin-right:30px;
+}
+.navbar-inverse .navbar-right.navbar-nav>li>a {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.navbar-nav>li>a {
+	/*padding-top: 20px;
+    padding-bottom: 20px;*/
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: #333;
+	font-size: 11px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+	color: #222;
+	background-color: transparent;
+	/*border-bottom: 3px solid #fdc23e;
+    padding-bottom: 17px;*/
+	font-weight: 700;
+}
+
+.navbar-inverse .navbar-right a.dropdown-toggle {
+	/* padding-top: 15px;
+     padding-bottom: 15px;*/
+	text-transform: none;
+	font-size: 13px;
+}
+.navbar-inverse .navbar-right>li>a.dropdown-toggle:hover {
+	/*padding-bottom: 12px;*/
+}
+
+
+.navbar-inverse .navbar-toggle {
+	border:none;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+	background-color: #222;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+	background-color: #f4f4f4;
+}
+
+
+.avatar img {
+	position: relative;
+	display: inline-block;
+	width: 30px;
+	border-radius: 50%;
+	margin-right: 5px;
+}
+
+.head-container {
+	margin-top: 50px;
+	/*margin:90px 60px 0 60px;*/
+	background: #f0f3f7;
+	padding:5px 15px;
+	padding-top: 25px;
+	padding-right: 45px;
+	padding-left: 45px;
+	padding-bottom: 25px;
+
+}
+
+.head-container  p {
+	margin-bottom: 0
+}
+
+.body-container {
+	background: #fff;
+	/*margin:60px;
+	margin-top:0;*/
+	margin:15px 45px;
+}
+
+.body-container .col-lg-12 .table-responsive div {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+/*Form Elements*/
+input, select, button {
+	padding:5px 10px;
+	border:.153846rem solid #ddd;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	font-size:12px;
+	height: 35px;
+	/*line-height: 30px;*/
+}
+.btn-default.focus, .btn-default:focus,
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover,
+.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default,
+.btn-default:hover, button:focus, .bootstrap-select .dropdown-toggle:focus {
+	background-color: #fbfbfb;
+	outline:0 !important;
+}
+
+p.table-footer input, p.table-footer button {
+	height:28px;
+}
+
+.select2-container--default .select2-selection--single {
+	border:.153846rem solid #ddd;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	font-size:12px;
+	height: 35px;
+	line-height: 35px;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+	line-height: 35px;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+	height: 35px;
+}
+
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn),
+.bootstrap-select > .dropdown-toggle {
+	width: auto !important;
+	width: initial !important;
+}
+.bootstrap-select button {
+	margin:0;
+	padding: 5px 10px;
+	border-top-width: .153846rem;
+	border-top-style: solid;
+	border-top-color: #ddd;
+	border-right-width: .153846rem;
+	border-right-style: solid;
+	border-right-color: #ddd;
+	border-left-width: .153846rem;
+	border-left-style: solid;
+	border-left-color: #ddd;
+	border-bottom-width: .153846rem;
+	border-bottom-style: solid;
+	border-bottom-color: #ddd;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	font-size: 12px;
+	height: 35px;
+}
+.bootstrap-select>.dropdown-toggle {
+	z-index: 0 !important ;
+}
+
+.w-100 .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn),
+.w-100 .bootstrap-select > .dropdown-toggle,
+.w-100 .select2-container {
+	width: 100% !important;
+}
+
+button.btn.btn-sm.btn-default.btn-block.clockpicker-button {
+	display: none;
+}
+
+
+.search-by  {
+	border:.153846rem solid #ddd;
+	border-radius: 3px;
+	padding-right:10px;
+	background: white;
+	display: inline-block;
+	/*max-width: 70%;*/
+}
+.search-by input {
+	border:none;
+	/*width:400px;
+	max-width: 66%;*/
+	min-width: 250px;
+}
+.search-by button.btn.dropdown-toggle.btn-default {
+	border:none;
+}
+
+
+.sort-by {
+	margin-left:25px;
+}
+.sort-by select {
+	margin-left:5px;
+}
+
+p.select-actions select, p.select-actions button.dropdown-toggle {
+	border-top-right-radius: 0;border-bottom-right-radius: 0;
+}
+p.select-actions button.btn-primary {
+	margin-left: -3px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+
+
+
+/*Tables*/
+.table {
+	margin-bottom: 0
+}
+.table thead {
+	background: #fff;
+}
+
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+
+	padding: 35px 15px;
+	font-size: 12px;
+	vertical-align: middle;
+	border-bottom: 2px solid #f0f3f7;
+}
+.table>caption+thead>tr:first-child>td, .table>caption+thead>tr:first-child>th, .table>colgroup+thead>tr:first-child>td, .table>colgroup+thead>tr:first-child>th, .table>thead:first-child>tr:first-child>td, .table>thead:first-child>tr:first-child>th {
+	border-top: 2px solid #f0f3f7;
+	border-bottom: 2px solid #f0f3f7;
+}
+.table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>th {
+	padding:15px;
+	font-weight:600;
+	color: #999;
+	text-transform: uppercase;
+	font-size:11px;
+}
+.table>tbody>tr>th a, .table>tfoot>tr>th, .table>thead>tr>th a {
+	color: #999;
+}
+.table>tbody>tr>th a .glyphicon, .table>tfoot>tr>th, .table>thead>tr>th a .glyphicon {
+	margin-left:5px;
+	font-size: 10px
+}
+
+
+.table .avatar img {
+	width:50px;
+}
+
+.table-footer {
+	margin-bottom: 0;
+	color: #888;
+}
+.table-footer .glyphicon-refresh {
+	margin-left:15px;
+	margin-right:15px;
+}
+.table-footer .show-items {
+	margin-left:15px;
+}
+.table-footer .pagination-buttons {
+	margin-right:15px;
+}
+.table-footer .pagination-buttons input {
+	width:40px;
+	text-align: center;
+	margin-top: 13px;
+}
+.table-footer .glyphicon {
+	color: #585964;
+}
+.table-footer .disabled .glyphicon {
+	color: #aaa;
+	cursor: default;
+}
+
+
+/* Sidebar Styles*/
+/*.st-content {
+	overflow-y: scroll;
+}*/
+
+.st-content,
+.st-content-inner {
+	position: relative;
+	/*padding-bottom: 120px;*/
+}
+
+.st-container {
+	position: relative;
+	/*overflow: hidden;*/
+}
+
+.st-pusher {
+	position: relative;
+	left: 0;
+	z-index: 99;
+	/*min-height: 100vh;*/
+	background: #f0f3f7;
+	perspective: 1000px;
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+}
+
+.st-pusher::after {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 0;
+	background: rgba(0,0,0,0.2);
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s;
+	transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s;
+}
+
+.st-menu-open .st-pusher::after {
+	width: 100%;
+	height: 300vh;
+	opacity: 1;
+	-webkit-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+}
+
+.st-menu {
+	position: absolute;
+	/*top: 50px;*/
+	right: 0;
+	z-index: 1050;
+	visibility: hidden;
+	width: 50vw;
+	min-height: 100vh;
+	background: #fff;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	border:1px solid #dfe7f2;
+	padding: 25px 45px;
+	overflow-y: auto;
+	display: none;
+}
+
+.st-menu::after {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.2);
+	content: '';
+	opacity: 1;
+	-webkit-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+}
+/*.st-menu form {
+	margin-bottom: 60px;
+}*/
+
+.st-menu-open .st-menu::after {
+	width: 0;
+	height: 0;
+	opacity: 0;
+	-webkit-transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s;
+	transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s;
+}
+.st-menu-open .st-menu {
+	display: block;
+}
+
+/*form*/
+.st-menu form .image-upload > input
+{
+	display: none;
+}
+
+.st-menu form .image-upload img
+{
+	width: 150px;
+	cursor: pointer;
+}
+.st-menu form label {
+	font-weight:600;
+	color: #999;
+	text-transform: uppercase;
+	font-size:11px;
+	/*margin-top:20px*/
+}
+.st-menu form label:last-child {
+	margin-top:0;
+}
+.st-menu form input, .st-menu form select {
+	width: 100%;
+	height:35px;
+	/*line-height:35px;*/
+}
+.st-menu form .checkbox {
+	display: inline-block;
+	line-height: 20px;
+	margin-right: 10px;
+}
+.st-menu form div.checkbox:first-of-type  {
+	margin-right: 20px
+}
+.checkbox label, .radio label {
+	padding-left: 0;
+}
+
+.st-menu form input[type=checkbox],.st-menu form input[type=radio] {
+	width:13px;
+	height:13px;
+	margin-left:5px;
+	margin-top: 4px;
+}
+
+.st-menu form button.no-border {
+	height:35px;
+	border-radius: 3px;
+	min-width: 35px;
+	text-align: center;
+	border:none;
+}
+
+.st-menu form button .glyphicon {
+	font-size:10px;
+	top: -1px;
+}
+
+
+.st-menu-buttons {
+	margin-top:50px;
+}
+.st-menu-buttons .btn {
+	width: 95%;
+}
+
+/* content style */
+
+.st-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.st-menu h2 {
+	margin: 0;
+	padding: 1em;
+	color: rgba(0,0,0,0.4);
+	text-shadow: 0 0 1px rgba(0,0,0,0.1);
+	font-weight: 300;
+	font-size: 2em;
+}
+
+.st-menu ul li a {
+	display: block;
+	padding: 1em 1em 1em 1.2em;
+	outline: none;
+	box-shadow: inset 0 -1px rgba(0,0,0,0.2);
+	color: #f3efe0;
+	text-transform: uppercase;
+	text-shadow: 0 0 1px rgba(255,255,255,0.1);
+	letter-spacing: 1px;
+	font-weight: 400;
+	-webkit-transition: background 0.3s, box-shadow 0.3s;
+	transition: background 0.3s, box-shadow 0.3s;
+}
+
+.st-menu ul li:first-child a {
+	box-shadow: inset 0 -1px rgba(0,0,0,0.2), inset 0 1px rgba(0,0,0,0.2);
+}
+
+.st-menu ul li a:hover {
+	background: rgba(0,0,0,0.2);
+	box-shadow: inset 0 -1px rgba(0,0,0,0);
+	color: #fff;
+}
+
+
+
+/* Individual effects ------------------------------------- */
+/* -------------------------------------------------------- */
+
+/* Effect 1: Slide-in on top */
+.st-effect-1.st-menu {
+	visibility: visible;
+	-webkit-transform: translate3d(50vw, 0, 0);
+	transform: translate3d(50vw, 0, 0);
+}
+
+.st-effect-1.st-menu-open .st-effect-1.st-menu {
+	visibility: visible;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+.st-effect-1.st-menu::after {
+	display: none;
+}
+
+/* Effect 2: Reveal */
+.st-effect-2.st-menu-open .st-pusher {
+	-webkit-transform: translate3d(-50vw, 0, 0);
+	transform: translate3d(-50vw, 0, 0);
+}
+
+.st-effect-2.st-menu {
+	z-index: 1;
+}
+
+.st-effect-2.st-menu-open .st-effect-2.st-menu {
+	visibility: visible;
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+}
+
+.st-effect-2.st-menu::after {
+	display: none;
+}
+
+
+
+
+
+
+/* media queries* ---------------------------------------- */
+
+@media (max-width: 768px) {
+	.navbar .container-fluid {
+		padding-right: 0;
+	}
+	.navbar-nav {
+		margin: 0 -15px;
+	}
+	.navbar-nav>li {
+		padding:0 15px;
+	}
+	.navbar-nav>li>a {
+		padding-top: 7px;
+		padding-bottom: 7px;
+		border-bottom: 1px solid #f0f3f7;
+	}
+	.navbar-nav>li:last-child>a {
+		border-bottom: none
+	}
+	.navbar-inverse .navbar-right>li.dropdown {
+		padding: 0
+	}
+	.navbar-inverse .navbar-right>li>a.dropdown-toggle {
+		padding:20px 30px;
+		background: #f4f4f4;
+	}
+	.navbar-inverse .navbar-right {
+		margin-right:0;
+	}
+
+	.head-container .col-xs-12, .head-container .col-xs-12.text-right,
+	.body-container .col-xs-12, .body-container .col-xs-12.text-right {
+		text-align: center;
+	}
+	.head-container .col-xs-12.text-right {
+		margin-top:15px;
+	}
+	.table-footer:nth-of-type(1) {
+		border-bottom:none;
+	}
+	.table-responsive {
+		border:none;
+	}
+}
+
+
+/* Desktops and laptops ---------------------------------- */
+@media only screen  and (min-width : 1224px) {
+	.st-menu {
+		width: 65vw;
+	}
+	.st-effect-1.st-menu {
+		-webkit-transform: translate3d(65vw, 0, 0);
+		transform: translate3d(65vw, 0, 0);
+	}
+	.st-effect-2.st-menu-open .st-pusher {
+		-webkit-transform: translate3d(-65vw, 0, 0);
+		transform: translate3d(-65vw, 0, 0);
+	}
+}
+
+/* Large screens ----------------------------------------- */
+@media only screen  and (min-width : 1824px) {
+	.st-menu {
+		width: 50vw;
+	}
+	.st-effect-1.st-menu {
+		-webkit-transform: translate3d(50vw, 0, 0);
+		transform: translate3d(50vw, 0, 0);
+	}
+	.st-effect-2.st-menu-open .st-pusher {
+		-webkit-transform: translate3d(-50vw, 0, 0);
+		transform: translate3d(-50vw, 0, 0);
+	}
+}
+
+textarea.form-control {
+
+	resize: none;
+	height: 100px;
+}
+
+.select2-selection--single{
+	height: 35px;
+}
+
+/*    TODO pbarreto  ------------------------------------------------------   */
+
+
+#detalhesEntregas {
+	margin-top: 1em;
+}
+.pickupSchedulesWrapper {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background-color: #EEEEEE;
+}
+
+.margin-top-1em {
+	margin-top: 1em;
+}
+
+.margin-top-2em {
+	margin-top: 2em;
+}
+
+
+/* Forces a margin of 'X' px under [an INPUT] element. */
+.super-margin-bottom {
+	margin-bottom: 2em;
+}
+
+
+#tituloAdicionarFonte>h4 .half-super-margin-bottom {
+	margin-bottom: 1em;
+}
+
+
+/* This next CSS rule must be applied in a CUMULATIVE manner;
+	-- to the HTML element with id="contactype";
+	-- AND SIMULTANEOUSLY to ANY <SELECT> element whose class is ".select2" IF AND ONLY IF ".SELECT2 --IS CHILD OF-- ".selector" */
+#contactype, .selector .select2 {
+	width:100% !important;
+}
+
+/*#codPostal, .selector .selectpicker {*/
+	/*width:100% !important;*/
+/*}*/
+
+
+#div_CodPostal {
+	margin-bottom: 2em
+}
+
+#div_Ruas  {
+	margin-bottom: 2em
+}
+
+
+#ruas, .selector .selectpicker {
+	width:100% !important;
+}
+
+/* RENDER BUTTONS --> «Add New Contact to...» --> 'Nucleos'/'Fontes'/'Beneficiarios' */
+
+
+/* Center button in Div center */
+#addNewContact_sources {
+	text-align: center;
+	/*vertical-align: middle;*/
+	/*line-height: 0px;*/
+}
+
+#newcontact.btn-primary.no-border {
+	/*margin-right: 2em;*/
+}
+
+#newcontact.text-align-center.btn-primary.no-border.margin-top-2em {
+	margin-top: 2em;
+}
+
+/* BUTTON 'newResponsavel'--> @SOURCES --> Alinhar o botão com o campo de texto */
+#newResponsavel.btn-primary.no-border {
+	margin-top: 22px;
+}
+
+
+
+/* #newPickupSchedule.btn-primary.no-border {*/
+/*}*/
+
+
+
+/* Alinhar a div com o 'input' anterior */
+#weekdaysSchedule {
+	margin-top: 20px;
+}
+
+.st-menu form label.lowercase {
+	text-transform: lowercase;
+	/*padding:0;*/
+}
+
+.st-menu form label.capitalize {
+	text-transform: capitalize;
+}
+
+.st-menu form label.weekdayPaddingLeft {
+	padding-left: 20px;
+}
